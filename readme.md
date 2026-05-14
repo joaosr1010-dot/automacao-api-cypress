@@ -56,25 +56,25 @@ Praticar automação de requisições HTTP simulando operações CRUD em uma API
 
 ### Código da automação POST
 
-![CodigoPOST](prints/post_vscode.png)
+![CodigoPOST](prints/post_vscode.PNG)
 
 ---
 
 ### POST funcionando
 
-![POST](prints/post_cypress.png)
+![POST](prints/post_cypress.PNG)
 
 ---
 
 ### PUT funcionando
 
-![PUT](prints/put_cypress.png)
+![PUT](prints/put_cypress.PNG)
 
 ---
 
 ### GET pós-delete validando 404
 
-![GET404](prints/get_pos_delete_cypress.png)
+![GET404](prints/get_pos_delete_cypress.PNG)
 
 ---
 
