@@ -50,7 +50,7 @@ Praticar automação de requisições HTTP simulando operações CRUD em uma API
 
 ### Estrutura do projeto
 
-![Estrutura](prints/estrutura_vscode.png)
+![Estrutura](prints/estrutura_vscode.PNG)
 
 ---
 
