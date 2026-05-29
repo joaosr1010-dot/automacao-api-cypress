@@ -48,8 +48,8 @@ describe('Buscar dispositivo', () => {
  
    it('Buscar dispositivo deletado', () => {
  
-        const idDispositivo = 'ff8081819d82fab6019e69aa275e0782'
-        const nomeDispositivo = 'Frozen Rubber Salad'
+        const idDispositivo = 'ff8081819d82fab6019e74012bca191c'
+        const nomeDispositivo = 'Luxurious Gold Chicken'
  
         cy.request({
  

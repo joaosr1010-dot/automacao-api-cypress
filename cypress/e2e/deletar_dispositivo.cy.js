@@ -2,7 +2,7 @@ describe('Deletar dispositivo', () => {
 
   it('Deletar dispositivo criado', () => {
 
-    const idDispositivo = 'ff8081819d82fab6019e69aa275e0782'
+    const idDispositivo = 'ff8081819d82fab6019e74012bca191c'
 
     // BUSCA O NOME DO PRODUTO
     cy.request({
