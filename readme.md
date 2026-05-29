@@ -383,3 +383,75 @@ Além da simples execução de requisições HTTP, o projeto buscou aplicar conc
 - estruturação de testes automatizados
 
 com o objetivo de simular cenários mais próximos de projetos reais de automação de APIs.
+
+---
+
+---
+
+# 📸 Execução dos Testes
+
+O projeto possui diversas execuções e validações distribuídas entre os fluxos de CREATE, GET, UPDATE e DELETE.
+
+Os prints abaixo destacam algumas das principais implementações técnicas desenvolvidas durante a evolução do projeto, com foco em:
+
+* geração dinâmica de dados
+* reutilização de código
+* validação de arrays
+* rastreamento de alterações
+* validações negativas
+* organização estrutural do framework
+
+---
+
+## 📂 Estrutura do Projeto
+
+Organização dos testes automatizados utilizando Cypress, separação por responsabilidades e reutilização de comandos customizados.
+
+<img width="349" height="478" alt="estrutura-projeto" src="https://github.com/user-attachments/assets/748f7360-ee10-4ab5-9d6e-3935b3147d42" />
+
+
+---
+
+## 🎲 Geração dinâmica de dados com Faker.js
+
+Implementação do Faker.js para criação dinâmica de dispositivos, evitando dados fixos e tornando os testes mais reutilizáveis e próximos de cenários reais.
+
+<img width="934" height="588" alt="faker-dinamico" src="https://github.com/user-attachments/assets/c80e4f34-afee-4147-9cec-83e72e12fcd1" />
+
+
+---
+
+## 🧩 Validação de Arrays e Logs Dinâmicos
+
+Validação da estrutura de resposta da API utilizando arrays, verificações dinâmicas com `forEach()` e exibição de logs contendo IDs e nomes dos dispositivos retornados.
+
+<img width="927" height="582" alt="array-validation" src="https://github.com/user-attachments/assets/42acd39d-23d8-4f23-840e-6a3f62c697af" />
+
+
+---
+
+## 🔄 Rastreamento de Alterações no UPDATE
+
+Implementação de rastreamento das alterações realizadas durante o fluxo de atualização, exibindo o nome antigo e o novo nome do dispositivo atualizado.
+
+<img width="930" height="582" alt="rastreamento-update" src="https://github.com/user-attachments/assets/f9b0ffe3-47cd-4d56-835c-3e0b6783c50c" />
+
+
+---
+
+## 🗑️ Exclusão de Dispositivos com Logs Dinâmicos
+
+Execução do DELETE com exibição dinâmica do ID e nome do dispositivo removido.
+
+<img width="930" height="584" alt="delete-dispositivo" src="https://github.com/user-attachments/assets/189f3c1e-9aa1-4c60-922a-9f0c314d8bcc" />
+
+
+---
+
+## 🚫 Validação de GET Pós DELETE
+
+Teste negativo validando o comportamento esperado da API após exclusão de um dispositivo, garantindo retorno `404 Not Found` para dispositivos removidos.
+
+<img width="932" height="582" alt="get-pos-delete" src="https://github.com/user-attachments/assets/7f1554a0-a40a-4b86-a207-901f31c4799b" />
+
+
